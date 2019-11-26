@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/code4pantanal/code4pantanal.github.io.git

@@ -1,0 +1,91 @@
+baseURL = "https://code4pantanal.github.io/"
+languageCode = "pt-br"
+title = "Code for Pantanal"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "Sobre"
+        url     = "about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Service"
+        url     = "service"
+        weight  = 3
+    [[menu.nav]]
+        name    = "Gallery"
+        url     = "gallery"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Blog"
+        url     = "blog"
+        weight  = 5
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "contact"
+        weight  = 6
+
+# Site Params
+[params]
+    home = "Início"
+    logo = "images/logo.png"
+    dateFormat = "6 January 2006"
+    # Meta data
+    description = "Airspace Hugo theme"
+    author = "Themefisher"
+    # Google Analitycs
+    googleAnalitycsID = "Your ID"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/slider.jpg"
+        heading = "Olá! Somos o Code for Pantanal"
+        description = "Um grupo de hackerativistas que querem, através da tecnologia, ajudar a população e da colaboração com software livre."
+        btn     = false
+        btnText = "Download More"
+        btnURL  = "https://themefisher.com/"
+        # [[params.banner.flipText]]
+        #     title   = "DESIGNER"
+        # [[params.banner.flipText]]
+        #     title   = "DEVELOPER"
+        # [[params.banner.flipText]]
+        #     title   = "FATHER"
+
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "Quem somos"
+        content = "Olá, somos um grupo de desenvolvedores motivados a melhorar nossa região através da tecnologia."
+        image   = "images/about/about.jpg"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "Quer colaborar?"
+        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        btnText = "Contact with me"
+        btnURL  = "/contact"
+
+    # Portfolio Section On Homepage
+    [params.portfolio]
+        enable  = true
+        title   = "Projetos"
+        subtitle= "Projetos em desenvolvimento"
+
+    [params.footer]
+        [[params.footer.socialIcon]]
+            icon = "ion-social-facebook"
+            url = "#"
+
+        [[params.footer.socialIcon]]
+            icon = "ion-social-instagram"
+            url = "#"
+
+        [[params.footer.socialIcon]]
+            icon = "ion-social-linkedin"
+            url = "#"
